@@ -1,0 +1,6 @@
+numbers1 = [int(n) for n in input("Enter a list of numbers (separated by spaces): ").split()]
+numbers2 = [int(n) for n in input("Enter another list of numbers (separated by spaces): ").split()]
+if numbers1 == numbers2:
+  print("The two lists are the same.")
+else:
+  print("The two lists are different.")
