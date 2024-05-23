@@ -1,0 +1,7 @@
+numbers = [int(n) for n in input("Enter a list of numbers (separated by spaces): ").split()]
+sum = 0
+for number in numbers:
+  sum += number
+expected_sum = (len(numbers) * (len(numbers) + 1)) // 2
+difference = sum - expected_sum
+print("The repetitive element is:", difference)
