@@ -1,0 +1,7 @@
+numbers = [int(n) for n in input("Enter a list of numbers (separated by spaces): ").split()]
+largest = -1
+for number in numbers:
+  if not (number ** 0.5).is_integer():
+    if number > largest:
+      largest = number
+print("The largest number that is not a perfect square is:", largest)
