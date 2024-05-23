@@ -1,0 +1,6 @@
+arr = [1, 2, 3, 4, 5]
+key = 3
+index = arr.index(key)
+print("Element found at index", index)
+if index not in range(len(arr)):
+    print("Element not found.")
