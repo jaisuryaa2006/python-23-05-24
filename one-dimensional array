@@ -1,0 +1,5 @@
+numbers = [int(n) for n in input("Enter a list of numbers (separated by spaces): ").split()]
+sum = 0
+for number in numbers:
+  sum += number
+print("Sum:", sum)
