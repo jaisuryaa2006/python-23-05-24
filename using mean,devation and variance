@@ -1,0 +1,13 @@
+import math
+numbers = []
+while True:
+    n = input("Enter a number (or 'done' to finish): ")
+    if n.lower() == "done":
+        break
+    numbers.append(float(n))
+mean = sum(numbers) / len(numbers)
+variance = sum((num - mean) ** 2 for num in numbers) / len(numbers)
+deviation = math.sqrt(variance)
+print("Mean:", mean)
+print("Standard Deviation:", deviation)
+print("Variance:", variance)
