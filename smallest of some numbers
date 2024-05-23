@@ -1,0 +1,10 @@
+numbers = []
+while True:
+    n = input("Enter a number: ")
+    if n == "":
+        break
+    numbers.append(float(n))
+largest = max(numbers)
+smallest = min(numbers)
+print("Largest:", largest)
+print("Smallest:", smallest)
