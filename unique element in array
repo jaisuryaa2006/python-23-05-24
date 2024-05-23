@@ -1,0 +1,3 @@
+numbers = [int(n) for n in input("Enter a list of numbers (separated by spaces): ").split()]
+numbers = list(set(numbers))
+print("Unique values:", numbers)
